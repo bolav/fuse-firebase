@@ -1,0 +1,22 @@
+{
+  "RootNamespace": "",
+  "Packages": [
+    "Fuse",
+    "FuseJS"
+  ],
+  "Includes": [
+    "*",
+    "README.md:Bundle"
+  ],
+  "Projects": [
+    "fuse_modules/bolav/fuse-cocoapods/cocoapods_include.unoproj"
+  ],
+  "Excludes": [
+    "fuse_modules/"
+  ],
+  "FusePM": {
+    "Dependencies": [
+      "https://github.com/bolav/fuse-cocoapods"
+    ]
+  }
+}
