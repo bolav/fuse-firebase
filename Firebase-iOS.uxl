@@ -1,0 +1,6 @@
+<Package>
+<Extensions Backend="CPlusPlus" Condition="iOS">
+    <ProcessFile Name="GoogleService-Info.plist" TargetName="GoogleService-Info.plist" />
+</Extensions>
+
+</Package>

@@ -11,9 +11,11 @@ public class Firebase : NativeModule
 	}
 
 	[Foreign(Language.ObjC)]
-	// [Require("Source.Import","DropboxSDK/DropboxSDK.h")]
+	[Require("Source.Import","FirebaseAnalytics/FIRApp.h")]
 	extern(iOS) void InitImpl ()
 	@{
 		[FIRApp configure];
 	@}
+
+	extern(!iOS) void InitImpl () {}
 }
